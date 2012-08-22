@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>RabbitMQ.Client</id>
-    <version>2.8.4</version>
+    <version>2.8.6</version>
     <title>RabbitMQ.Client</title>
-    <authors>SpringSource</authors>
-    <owners>VMware, Inc.</owners>
+    <authors>SpringSource joefitzgerald</authors>
+    <owners>VMware</owners>
     <projectUrl>http://www.rabbitmq.com/dotnet.html</projectUrl>
 	<licenseUrl>http://www.rabbitmq.com/dotnet.html</licenseUrl>
 	<iconUrl>http://springframework.net/images/SpringSource_Leaves100x100.png</iconUrl>
