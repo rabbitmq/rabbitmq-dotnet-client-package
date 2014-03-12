@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>RabbitMQ.ServiceModel</id>
-    <version>3.2.1</version>
+    <version>3.2.4</version>
     <title>RabbitMQ.ServiceModel</title>
-    <authors>SpringSource,GoPivotal,joefitzgerald</authors>
-    <owners>GoPivotal</owners>
+    <authors>Pivotal,joefitzgerald</authors>
+    <owners>Pivotal</owners>
     <projectUrl>http://www.rabbitmq.com/dotnet.html</projectUrl>
 	<licenseUrl>http://www.rabbitmq.com/dotnet.html</licenseUrl>
 	<iconUrl>http://springframework.net/images/SpringSource_Leaves100x100.png</iconUrl>
@@ -15,7 +15,7 @@
     <language>en-US</language>
     <tags>RabbitMQ Client AMQP WCF SpringSource GoPivotal</tags>
 	<dependencies>
-		<dependency id="RabbitMQ.Client" version="3.2.1"/>
+		<dependency id="RabbitMQ.Client" version="3.2.4"/>
 	</dependencies>
 	<frameworkAssemblies>
 		<frameworkAssembly assemblyName="System.ServiceModel" targetFramework="net30, net35, net40"/>

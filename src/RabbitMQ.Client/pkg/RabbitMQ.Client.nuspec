@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>RabbitMQ.Client</id>
-    <version>3.2.1</version>
+    <version>3.2.4</version>
     <title>RabbitMQ.Client</title>
-    <authors>SpringSource,GoPivotal,joefitzgerald</authors>
-    <owners>GoPivotal</owners>
+    <authors>Pivotal,joefitzgerald</authors>
+    <owners>Pivotal</owners>
     <projectUrl>http://www.rabbitmq.com/dotnet.html</projectUrl>
 	<licenseUrl>http://www.rabbitmq.com/dotnet.html</licenseUrl>
 	<iconUrl>http://springframework.net/images/SpringSource_Leaves100x100.png</iconUrl>
