@@ -2276,7 +2276,7 @@
         </member>
         <member name="F:RabbitMQ.Client.ConnectionFactory.DefaultHeartbeat">
             <summary>
-            Default value for desired heartbeat interval, in seconds, with zero meaning none (value: 0).
+            Default value for desired heartbeat interval, in seconds, with zero meaning none (value: 60).
             </summary>
             <remarks>PLEASE KEEP THIS MATCHING THE DOC ABOVE.</remarks>
         </member>
