@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>RabbitMQ.Client</id>
-    <version>3.5.7</version>
+    <version>3.6.0</version>
     <title>RabbitMQ.Client</title>
     <authors>The RabbitMQ Team</authors>
     <owners>Pivotal</owners>
@@ -13,6 +13,6 @@
     <description>The RabbitMQ .NET client is the official client library for C# (and, implicitly, other .NET languages)</description>
     <summary />
     <language>en-US</language>
-    <tags>RabbitMQ AMQP</tags>
+    <tags>RabbitMQ</tags>
   </metadata>
 </package>

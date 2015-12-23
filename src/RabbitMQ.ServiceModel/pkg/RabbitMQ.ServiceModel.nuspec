@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>RabbitMQ.ServiceModel</id>
-    <version>3.5.7</version>
+    <version>3.6.0</version>
     <title>RabbitMQ.ServiceModel</title>
     <authors>The RabbitMQ Team</authors>
     <owners>Pivotal</owners>
@@ -13,12 +13,12 @@
     <description>A WCF Binding for RabbitMQ.</description>
     <summary />
     <language>en-US</language>
-    <tags>RabbitMQ AMQP WCF</tags>
+    <tags>RabbitMQ WCF</tags>
 	<dependencies>
-		<dependency id="RabbitMQ.Client" version="3.5.7"/>
+		<dependency id="RabbitMQ.Client" version="3.6.0"/>
 	</dependencies>
 	<frameworkAssemblies>
-		<frameworkAssembly assemblyName="System.ServiceModel" targetFramework="net40"/>
+		<frameworkAssembly assemblyName="System.ServiceModel" targetFramework="net45"/>
 	</frameworkAssemblies>
   </metadata>
 </package>
