@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>RabbitMQ.ServiceModel</id>
-    <version>3.6.2</version>
+    <version>3.6.3</version>
     <title>RabbitMQ.ServiceModel</title>
     <authors>The RabbitMQ Team</authors>
     <owners>Pivotal</owners>

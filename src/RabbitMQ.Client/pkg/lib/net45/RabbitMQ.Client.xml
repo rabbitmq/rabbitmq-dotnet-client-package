@@ -2514,6 +2514,42 @@
             When no hostname was reachable.
             </exception>
         </member>
+        <member name="M:RabbitMQ.Client.ConnectionFactory.CreateConnection(System.Collections.Generic.IList{RabbitMQ.Client.AmqpTcpEndpoint})">
+            <summary>
+            Create a connection using a list of hostnames. The first reachable
+            hostname will be used initially. Subsequent hostname picks are determined
+            by the <see cref="T:RabbitMQ.Client.IHostnameSelector"/> configured.
+            </summary>
+            <param name="endpoints">
+            List of endpoints to use for the initial
+            connection and recovery.
+            </param>
+            <returns>Open connection</returns>
+            <exception cref="T:RabbitMQ.Client.Exceptions.BrokerUnreachableException">
+            When no hostname was reachable.
+            </exception>
+        </member>
+        <member name="M:RabbitMQ.Client.ConnectionFactory.CreateConnection(System.Collections.Generic.IList{RabbitMQ.Client.AmqpTcpEndpoint},System.String)">
+            <summary>
+            Create a connection using a list of hostnames. The first reachable
+            hostname will be used initially. Subsequent hostname picks are determined
+            by the <see cref="T:RabbitMQ.Client.IHostnameSelector"/> configured.
+            </summary>
+            <param name="endpoints">
+            List of endpoints to use for the initial
+            connection and recovery.
+            </param>
+            <param name="clientProvidedName">
+            Application-specific connection name, will be displayed in the management UI
+            if RabbitMQ server supports it. This value doesn't have to be unique and cannot
+            be used as a connection identifier, e.g. in HTTP API requests.
+            This value is supposed to be human-readable.
+            </param>
+            <returns>Open connection</returns>
+            <exception cref="T:RabbitMQ.Client.Exceptions.BrokerUnreachableException">
+            When no hostname was reachable.
+            </exception>
+        </member>
         <member name="M:RabbitMQ.Client.ConnectionFactory.UriDecode(System.String)">
             <summary>
              Unescape a string, protecting '+'.
