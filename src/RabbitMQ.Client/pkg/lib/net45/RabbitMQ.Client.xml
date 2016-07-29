@@ -5406,7 +5406,7 @@
         </member>
         <member name="T:RabbitMQ.Client.TcpClientAdapter">
             <summary>
-            Simple wrapper around TcpClient. 
+            Simple wrapper around TcpClient.
             </summary>
         </member>
         <member name="T:RabbitMQ.Client.TunneledTcpClient">
