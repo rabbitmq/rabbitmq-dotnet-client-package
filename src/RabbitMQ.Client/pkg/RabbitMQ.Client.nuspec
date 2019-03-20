@@ -6,8 +6,8 @@
     <title>RabbitMQ.Client</title>
     <authors>The RabbitMQ Team</authors>
     <owners>Pivotal</owners>
-    <projectUrl>http://www.rabbitmq.com/dotnet.html</projectUrl>
-	<licenseUrl>http://www.rabbitmq.com/dotnet.html</licenseUrl>
+    <projectUrl>https://www.rabbitmq.com/dotnet.html</projectUrl>
+	<licenseUrl>https://www.rabbitmq.com/dotnet.html</licenseUrl>
 	<iconUrl>https://en.gravatar.com/userimage/10048884/0ea8846e080980f705da081be53599ce.png?size=100</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The RabbitMQ .NET client is the official client library for C# (and, implicitly, other .NET languages)</description>
